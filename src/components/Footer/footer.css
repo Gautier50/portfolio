@@ -1,0 +1,17 @@
+.portfolio_footer_fig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: red;
+}
+.portfolio_footer_fig img {
+    display: flex;
+    
+    height: 30px;
+}
+.portfolio_footer_text {
+    border: solid yellow;
+    display: flex;
+    justify-content: flex-end;
+}
