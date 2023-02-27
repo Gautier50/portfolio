@@ -1,4 +1,18 @@
-.portfolio_header {
-    height: 150px;
-    background-color: blue;
+.portfolio_header_nav {
+  background-color: blue;
+  border: solid 2px black;
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  height: 100px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+

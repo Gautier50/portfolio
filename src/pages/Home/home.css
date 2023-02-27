@@ -1,0 +1,39 @@
+.home_profile {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.home_profile_picture img {
+    height: 500px;
+    border-radius: 50px;
+}
+.about_me {
+    height: 200px;
+    width: 50%;
+    border: solid 2px red;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+   
+}
+.hire_me_button {
+    width: 150px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #283BDA;
+}
+#cercle {
+    position: absolute;
+    opacity: 0.60;
+    top: -45px;
+    left: 696px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #283BDA , cyan);
+}

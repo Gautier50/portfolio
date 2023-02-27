@@ -13,9 +13,9 @@ export default function footer() {
         <a href="https://www.linkedin.com/in/gautier-lepage-971b70232/">
           <img src={linkedin_logo} alt="logo linkedin" />
         </a>
-        <div className="portfolio_footer_text">
-          Designed by Lepage Gautier, all rights reserved ©
-        </div>
+      </div>
+      <div className="portfolio_footer_text">
+        Designed by Lepage Gautier, all rights reserved ©
       </div>
     </div>
   );
