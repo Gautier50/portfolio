@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import "../.././Styles/styles.css"
 import profilePicture from "../../assets/img/profile_picture.jpeg";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";

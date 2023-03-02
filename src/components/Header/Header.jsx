@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./header.css"
+import "../.././index"
 
 export default function Header() {
   return (
@@ -15,12 +16,11 @@ export default function Header() {
         <Link to="/src/pages/About.jsx" className="a-propos_button">
           À propos
         </Link>
-        <Link to="/src/pages/Projets.jsx" className="projets_button">
+        <Link to="/src/pages/Projects/Projects.jsx" className="projects_button">
           Projets
         </Link>
-        <Link to="/src/pages/Contact.jsx" className="contact_button">
-          Contact
-        </Link>
+          <a href="mailto:gautier.lep@live.fr" className="header_links_link_contact">Contact</a>
+        
       </div>
     </div>
   );
