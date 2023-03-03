@@ -7,21 +7,27 @@
     .portfolio_header_nav {
         width: 100%;
     }
+   .home_profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   }
+    .portfolio_header_nav {
+        width: 100%;
+    }
      .portfolio_footer {
          width: 100%;
         height: 120px;
-        margin-top: 100px;
      }
-     .home_profile_picture img {
-        height: 300px;
-     }
+     
+     
 }
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .portfolio_footer {
          width: 100%;
         height: 120px;
-        margin-top: 100px;
+        
      }
 }
 /* Desktop */
@@ -29,6 +35,6 @@
     .portfolio_footer {
          width: 100%;
         height: 120px;
-        margin-top: 100px;
+        
      }
 }

@@ -23,8 +23,8 @@ export default function About() {
             <img src={linkedin_logo} alt="logo linkedin" />
             <div className="logos_legends">LinkedIn</div>
           </a>
-      <Button />
         </div>
+      <Button />
       </div>
       <Footer />
     </div>
