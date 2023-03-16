@@ -1,32 +1,7 @@
 .projects_cards {
-    width: 100%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: space-around;
 }
-.booki_project {
-    display: inline-block;
-  width: 200px;
-  border: solid 2px red;
-}
-.ohmyfood_project {
-  width: 200px;
-  border: solid 2px red;
-}
-.la-panthere_project {
-  width: 200px;
-  border: solid 2px red;
-}
-.kanap_project {
-  width: 200px;
-  border: solid 2px red;
-}
-.piiquante_project {
-  width: 200px;
-  border: solid 2px red;
-}
-.kasa_project {
-  width: 200px;
-  border: solid 2px red;
-}
-

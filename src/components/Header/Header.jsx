@@ -1,36 +1,46 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./header.css"
-import "../.././index"
+import "./header.css";
+import profilePicture from "../../assets/img/profile_picture.jpeg";
+import { useState } from "react";
+import "../.././index";
 
 export default function Header() {
+  const [showLinks, setShowLinks] = useState(false);
+
+  const handleShowLinks = () => {
+    setShowLinks(!showLinks);
+  };
+
   return (
-    <div className="portfolio_header">
-      <div className="portfolio_header_nav">
-        <Link to="/" className="gautier_button">
-          <h1 className="header_title">Gautier Lepage</h1>
-        </Link>
-        <div className="navlink_header">
-          <Link to="/" className="accueil_button">
-            Accueil
-          </Link>
-          <Link to="/src/pages/About.jsx" className="a-propos_button">
-            À propos
-          </Link>
-          <Link
-            to="/src/pages/Projects/Projects.jsx"
-            className="projects_button"
-          >
+    <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
+      
+      <div className="navbar__logo-contain">Gautier Lepage</div>
+
+      <ul className="navbar__links">
+        <li className="navbar__item slideInDown-1">
+          <a href="/" className="navbar__link">
+            Acceuil
+          </a>
+        </li>
+        <li className="navbar__item slideInDown-2">
+          <a href="/" className="navbar__link">
+            A propos
+          </a>
+        </li>
+        <li className="navbar__item slideInDown-3">
+          <a href="/" className="navbar__link">
             Projets
-          </Link>
-          <a
-            href="mailto:gautier.lep@live.fr"
-            className="header_links_link_contact"
-          >
+          </a>
+        </li>
+        <li className="navbar__item slideInDown-4">
+          <a href="/" className="navbar__link">
             Contact
           </a>
-        </div>
-      </div>
-    </div>
+        </li>
+      </ul>
+      <button className="navbar__burger" onClick={handleShowLinks}>
+        <span className="burger-bar"></span>
+      </button>
+    </nav>
   );
 }

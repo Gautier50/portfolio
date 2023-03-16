@@ -1,47 +1,8 @@
-.portfolio_header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.primary-title {
+    padding: 6rem;
 }
-.navlink_header {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.home_profile {
-    background: background_portfolio;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-}
-.home_profile_picture img {
-    height: 120px;
-    width: 150px;
-    border-radius: 50%;
-}
-.about_me {
-    color: white;
-    border: solid 2px red;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-   
-}
-.hire_me_button {
-    width: 120px;
-    padding: 12px;
-    border-radius: 30px;
-    border: none;
-    color: white;
-    font-size: 12px;
-    background-color: #283BDA;
-}
-#cercle {
-    opacity: 0.60;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: linear-gradient(to right, #283BDA , cyan);
+
+.presentation {
+    min-height: 200vh;
+    padding: 6rem 1rem 1rem;
 }
