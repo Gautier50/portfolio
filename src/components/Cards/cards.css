@@ -1,7 +1,22 @@
 .projects_cards {
   width: 100%;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
+}
+.title__project {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.description__project {
+  color: #666;
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+.projectPicture  {
+  width: 60%;
+  height: 60%;
 }

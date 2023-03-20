@@ -1,8 +1,9 @@
 import React from 'react'
 import "./button.css"
 
-export default function Button() {
+export default function Button({color, title, style}) {
   return (
-    <div className='buttons'>Projets</div>
+    <button className={color}>{title}{style}</button>
+    
   )
 }

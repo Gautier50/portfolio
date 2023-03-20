@@ -1,13 +1,47 @@
-.buttons {
-    padding: 1rem 4rem;
-    font-size: 2rem;
-    background: #facf0f;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: inline-block;
-    font-weight: 700;
-    border-radius: 5px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,.15);
-    transition: transform .3s;
+button {
+  padding: 1rem 3rem;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+  background-color: #facf0f;
+  color: #333;
+  border: none;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  animation: tilt-shaking 1s infinite cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+button:active {
+  transform: scale(0.98);
+  box-shadow: none;
+}
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   box-sizing: border-box;
@@ -6,6 +9,9 @@
   margin: 0;
   padding: 0;
   outline: none;
+}
+.main-container {
+  margin: auto;
 }
 ul {
   list-style: none;

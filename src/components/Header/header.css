@@ -1,10 +1,22 @@
-.logo__profile__picture {
-width: 20px;
-height: 20px;
-border-radius: 50%;
+.header__nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.profilePicture img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  background-color: #facf0f;
 }
 .navbar {
-  font-size: 16px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +29,16 @@ border-radius: 50%;
   padding: 1rem;
   background-color: #fff;
   color: #000;
+}
+.navbar__logo-contain {
+  display: block;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.navbar:hover {
+  color: #facf0f;
+  cursor: pointer;
 }
 .navbar__links {
   display: flex;
