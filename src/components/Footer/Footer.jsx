@@ -15,6 +15,9 @@ export default function footer() {
         <a href="https://www.linkedin.com/in/gautier-lepage-971b70232/">
           <img src={LinkedinLogo} alt="linkedin logo" />
         </a>
+        <a href="mailto:gautier.lep@live.fr">
+          <i class="far fa-envelope fa-2x"></i>
+        </a>
       </div>
 
       <div className="portfolio_footer_text">

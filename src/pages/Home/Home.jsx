@@ -19,7 +19,7 @@ export default function Home() {
             Bonjour, Je m'appelle Gautier Lepage et je viens de terminer une
             formation de Développeur Web chez OpenClassrooms.
           </p>
-          <Button color="#facf0f" title="PROJETS" />
+          <Button sx="center" title="PROJETS" />
         </div>
       </div>
       <section id="about-me">

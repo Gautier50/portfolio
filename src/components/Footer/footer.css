@@ -18,7 +18,7 @@
   justify-content: space-around;
   margin-bottom: 1rem;
 }
-.social__logos img {
+.social__logos img  {
   height: 40px;
   cursor: pointer;
   background: white;

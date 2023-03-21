@@ -6,6 +6,8 @@ button {
   background-color: #facf0f;
   color: #333;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 3rem;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -17,6 +19,7 @@ button {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform 0.3s;
 }
+
 button:hover {
   cursor: pointer;
   opacity: 0.9;
@@ -24,10 +27,12 @@ button:hover {
   transform: translate3d(0, 0, 0);
   perspective: 1000px;
 }
+
 button:active {
   transform: scale(0.98);
   box-shadow: none;
 }
+
 @keyframes tilt-shaking {
   0% {
     transform: rotate(0deg);
