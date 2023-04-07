@@ -22,7 +22,7 @@ export default function Header() {
         <ul className="navbar__links">
           <li className="navbar__item slideInDown-1">
             <a href="/" className="navbar__link">
-              Acceuil
+              Accueil
             </a>
           </li>
           <li className="navbar__item slideInDown-2">

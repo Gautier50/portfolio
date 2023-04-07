@@ -12,7 +12,10 @@ export default function Home() {
   return (
     <main className="main-container">
       <div className="presentation">
-        <div style={{ backgroundImage: `url(${background})` }}>
+        <div
+          className="background__presentation"
+          style={{ backgroundImage: `url(${background})` }}
+        >
           <Header />
           <h1 className="primary-title">Bonjour, je suis Gautier Lepage</h1>
           <p className="text__presentation">
@@ -70,7 +73,6 @@ export default function Home() {
             également, ceux que j'ai dû réaliser lors de mon cursus de
             formation.
           </p>
-
           <Cards />
         </div>
       </section>

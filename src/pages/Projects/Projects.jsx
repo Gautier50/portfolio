@@ -1,9 +1,13 @@
 import React from 'react'
+import "./projects.css"
+import { Link } from "react-router-dom";
 
-function Projects() {
+export default function Projects() {
   return (
-    <div>Projects</div>
+    
+    <nav>
+      <Link to="/">Accueil</Link>
+    </nav>
+    
   )
 }
-
-export default Projects

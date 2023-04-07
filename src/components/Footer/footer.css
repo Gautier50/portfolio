@@ -24,6 +24,9 @@
   background: white;
   border-radius: 50%;
 }
+.far {
+  color: white;
+}
 .portfolio_footer_text {
   margin-bottom: 3rem;
   font-size: 1rem;
