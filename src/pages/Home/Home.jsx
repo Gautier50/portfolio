@@ -22,7 +22,9 @@ export default function Home() {
             Bonjour, Je m'appelle Gautier Lepage et je viens de terminer une
             formation de Développeur Web chez OpenClassrooms.
           </p>
-          <Button sx="center" title="PROJETS" />
+          <a href="./#projects">
+            <Button sx="center" title="PROJETS" />
+          </a>
         </div>
       </div>
       <section id="about-me">
@@ -46,7 +48,10 @@ export default function Home() {
           Si vous avez une bonne opportunité qui correspond à mes compétences et
           à mon expérience, n'hésitez pas à me contacter.
         </p>
-        <Button color="#facf0f" title="CONTACT" />
+
+        <a href="mailto:gautier.lep@live.fr">
+          <Button color="#facf0f" title="CONTACT" />
+        </a>
 
         <h3 className="skills__title">Technologies</h3>
         <div className="skills">

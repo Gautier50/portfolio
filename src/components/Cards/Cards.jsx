@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./cards.css";
+
 import "../../assets/img/booki_mobile.png";
 import booki from "../../assets/img/booki_desktop.png";
 import ohmyfood from "../../assets/img/ohmyfood_desktop.png";
@@ -9,7 +11,6 @@ import piiquante from "../../assets/img/piiquante_desktop.png";
 import kasa from "../../assets/img/kasa_desktop.png";
 
 import Button from "../Button/Button";
-import Projects from "../../pages/Projects/Projects";
 
 export default function Cards() {
   return (
@@ -21,8 +22,10 @@ export default function Cards() {
       <p className="description__project">
         Transformez une maquette en site web avec HTML & CSS
       </p>
-      <Button onclick={Projects} color="#facf0f" title="PLUS"/>
-
+        <Link to="/Projects">
+          <Button color="#facf0f" title="PLUS" />
+        </Link>
+      
       <div className="projectPicture">
         <img src={ohmyfood} alt="" />
       </div>
@@ -31,14 +34,18 @@ export default function Cards() {
       <p className="description__project">
         Dynamisez une page web avec des animations CSS
       </p>
-      <Button color="#facf0f" title="PLUS" />
+      <Link to="/Projects">
+        <Button color="#facf0f" title="PLUS" />
+      </Link>
 
       <div className="projectPicture">
         <img src={laPanthere} alt="" />
       </div>
       <div className="title__project">La panthère</div>
       <p className="description__project">Optimisez un site web existant</p>
-      <Button color="#facf0f" title="PLUS" />
+      <Link to="/Projects">
+        <Button color="#facf0f" title="PLUS" />
+      </Link>
 
       <div className="projectPicture">
         <img src={kanap} alt="" />
@@ -47,7 +54,9 @@ export default function Cards() {
       <p className="description__project">
         Construisez un site e-commerce en JavaScript
       </p>
-      <Button color="#facf0f" title="PLUS" />
+      <Link to="/Projects">
+        <Button color="#facf0f" title="PLUS" />
+      </Link>
 
       <div className="projectPicture">
         <img src={piiquante} alt="" />
@@ -56,7 +65,9 @@ export default function Cards() {
       <p className="description__project">
         Construisez une API sécurisée pour une application d'avis gastronomiques
       </p>
-      <Button color="#facf0f" title="PLUS" />
+      <Link to="/Projects">
+        <Button color="#facf0f" title="PLUS" />
+      </Link>
 
       <div className="projectPicture">
         <img src={kasa} alt="" />
@@ -65,7 +76,9 @@ export default function Cards() {
       <p className="description__project">
         Créez une application web de location immobilière avec React
       </p>
-      <Button color="#facf0f" title="PLUS" />
+      <Link to="/Projects">
+        <Button color="#facf0f" title="PLUS" />
+      </Link>
     </div>
   );
 }
